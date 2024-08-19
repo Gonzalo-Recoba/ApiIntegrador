@@ -50,7 +50,7 @@ const fields = [
         nombre: "Tandil Tenis",
         material: "polvo de ladrillo y césped",
         ubicacion: "Tandil",
-        beneficios: "cabañas",
+        beneficios: "Cabañas",
         descripcion: "5 canchas de polvo de ladrillo y única en el pais con dos canchas de césped.",
         imagen: "https://img.asmedia.epimg.net/resizer/v2/4QLKYW6DGFNEJLVDCO7WN63TZU.jpg?auth=066a34dc34cd8b739df0711535e0d3498301ea33ced04ffb1db159919cc81118&width=1288&height=725&smart=true"
       },
@@ -119,7 +119,6 @@ const details = [
       vestuario: true,
       buffet: true
     }
-    
   },
   {
     id: 2,
@@ -287,75 +286,95 @@ const details = [
 
 const canchas = [
   {
-      id: "123",
-      nombreCancha: "Cancha 1",
+      id: "1",
+      nombreCancha: "Club Leyenda",
       propietario: "Propietario",
       direccion: "Av. 18 de julio 1360",
-      localidad: "Buenos Aires",
+      localidad: "Recoleta",
       tipoCancha: "Futbol",
-      images:[
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-      ]
+      images:[]
   },
   {
-      id: "123",
-      nombreCancha: "Cancha 2",
+      id: "2",
+      nombreCancha: "El Campito",
       propietario: "Propietario",
       direccion: "Palmar 4531",
-      localidad: "San Isidro",
+      localidad: "V. Lopez",
       tipoCancha: "Futbol",
-      images:[
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-      ]
+      images:[]
   },
   {
-      id: "123",
-      nombreCancha: "Cancha 3",
+      id: "3",
+      nombreCancha: "Young Boys",
       propietario: "Propietario",
       direccion: "Av. Italia 1254",
-      localidad: "San Isidro",
+      localidad:  "Caballito",
       tipoCancha: "Futbol",
-      images:[
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-      ]
+      images:[]
   },
   {
-      id: "123",
-      nombreCancha: "Cancha 4",
+      id: "4",
+      nombreCancha: "Paddle Sacramento",
       propietario: "Propietario",
       direccion: "Av. Libertador 2354",
-      localidad: "Montevideo",
-      tipoCancha: "Futbol",
-      images:[
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-      ]
+      localidad: "Las Cañitas",
+      tipoCancha: "Padel",
+      images:[]
   },
   {
-      id: "123",
-      nombreCancha: "Cancha 5",
+      id: "5",
+      nombreCancha: "Tandil Tenis",
       propietario: "Propietario",
       direccion: "Yaguaron 1212",
-      localidad: "Buenos Aires",
+      localidad: "Tandil",
+      tipoCancha: "Tenis",
+      images:[]
+  },
+  {
+      id: "6",
+      nombreCancha: "Devoto Padel",
+      propietario: "Propietario",
+      direccion: "Yaguaron 1212",
+      localidad: "Villa Devoto",
+      tipoCancha: "Padel",
+      images:[]
+  },
+  {
+      id: "7",
+      nombreCancha: "Padel Urquiza",
+      propietario: "Propietario",
+      direccion: "Yaguaron 1212",
+      localidad: "Villa Urquiza",
+      tipoCancha: "Padel",
+      images:[]
+  },
+  {
+      id: "8",
+      nombreCancha: "Pilar Soccer",
+      propietario: "Propietario",
+      direccion: "Yaguaron 1212",
+      localidad: "Pilar Country Las Leñas",
       tipoCancha: "Futbol",
-      images:[
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-        "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
-      ]
-  }
+      images:[]
+  },
+  {
+      id: "9",
+      nombreCancha: "Tenis Lanús",
+      propietario: "Propietario",
+      direccion: "Yaguaron 1212",
+      localidad: "Lanús",
+      tipoCancha: "Tenis",
+      images:[]
+  },
+  {
+      id: "10",
+      nombreCancha: "Montevideo Padel",
+      propietario: "Propietario",
+      direccion: "Yaguaron 1212",
+      localidad: "Carrasco",
+      tipoCancha: "Padel",
+      images:[]
+  },
 ]
  
 const localidades = [
