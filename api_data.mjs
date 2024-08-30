@@ -116,7 +116,7 @@ const details = [
     imagen4: "https://malaga.wiki/wp-content/uploads/medidas-del-campo-de-futbito.jpg",
     mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26278.12685750806!2d-58.416942433859774!3d-34.584790637453416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca99c609fc2f%3A0x392ca99351808a75!2sRecoleta%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1723146268638!5m2!1ses!2sar",
     servicios: {
-      horario: ["Lun. a Vier.", "10:00 a 00:00"],
+      horario: ["Lun, Mar, Mie, Jue, Vier", "10:00 a 00:00"],
       suelo: "Cemento",
       estacionamiento: true,
       vestuario: true,
@@ -137,7 +137,7 @@ const details = [
     imagen4: "https://i.blogs.es/e361ec/sandro-schuh-hgwy_yq1m0w-unsplash/1200_800.webp",
     mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26278.12685750806!2d-58.416942433859774!3d-34.584790637453416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca99c609fc2f%3A0x392ca99351808a75!2sRecoleta%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1723146268638!5m2!1ses!2sar",
     servicios: {
-      horario: ["Lun. a Vier.", "10:00 a 00:00"],
+      horario: ["Lun, Mar, Mie, Jue, Vier", "10:00 a 00:00"],
       suelo: "Cesped natural",
       estacionamiento: true,
       vestuario: false,
@@ -157,8 +157,8 @@ const details = [
     imagen3: "https://cdn.pixabay.com/photo/2020/02/09/11/14/youth-football-4832719_1280.jpg",
     imagen4: "https://cdn.pixabay.com/photo/2020/02/09/11/14/youth-football-4832719_1280.jpg",
     mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26278.12685750806!2d-58.416942433859774!3d-34.584790637453416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca99c609fc2f%3A0x392ca99351808a75!2sRecoleta%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1723146268638!5m2!1ses!2sar",
-    horario: ["Lun. a Vier.", "10:00 a 00:00"],
     servicios: {
+      horario: ["Lun, Mar, Mie, Jue, Vier", "10:00 a 00:00"],
       suelo: "Parquet",
       estacionamiento: false,
       vestuario: true,
@@ -179,7 +179,7 @@ const details = [
     imagen4: "https://www.mdzol.com/u/fotografias/m/2021/11/9/f848x477-1133785_1191588_3362.jpg",
     mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26278.12685750806!2d-58.416942433859774!3d-34.584790637453416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca99c609fc2f%3A0x392ca99351808a75!2sRecoleta%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1723146268638!5m2!1ses!2sar",
     servicios: {
-      horario: ["Lun. a Vier.", "10:00 a 00:00"],
+      horario: ["Lun, Mar, Mie, Jue, Vier", "10:00 a 00:00"],
       suelo: "Polvo Ladrillo",
       estacionamiento: true,
       vestuario: true,
@@ -200,7 +200,7 @@ const details = [
     imagen4: "https://img.asmedia.epimg.net/resizer/v2/4QLKYW6DGFNEJLVDCO7WN63TZU.jpg?auth=066a34dc34cd8b739df0711535e0d3498301ea33ced04ffb1db159919cc81118&width=1288&height=725&smart=true",
     mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26278.12685750806!2d-58.416942433859774!3d-34.584790637453416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca99c609fc2f%3A0x392ca99351808a75!2sRecoleta%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1723146268638!5m2!1ses!2sar",
     servicios: {
-      horario: ["Lun. a Vier.", "10:00 a 00:00"],
+      horario: ["Lun, Mar, Mie, Jue, Vier", "10:00 a 00:00"],
       suelo: "Polvo Ladrillo",
       estacionamiento: false,
       vestuario: false,
@@ -221,7 +221,7 @@ const details = [
     imagen4: "https://media.istockphoto.com/id/1363976548/es/foto/raqueta-de-p%C3%A1del-y-pelotas-en-la-pista-de-p%C3%A1del-azul.webp?b=1&s=170667a&w=0&k=20&c=OuTiOyAVbVz1lgq4FBu5_mcL4d-Uz1Ml_3pTkDQMI54=",
     mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26278.12685750806!2d-58.416942433859774!3d-34.584790637453416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca99c609fc2f%3A0x392ca99351808a75!2sRecoleta%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1723146268638!5m2!1ses!2sar",
     servicios: {
-      horario: ["Lun. a Vier.", "10:00 a 00:00"],
+      horario: ["Lun, Mar, Mie, Jue, Vier", "10:00 a 00:00"],
       suelo: "Sintetico Arena",
       estacionamiento: true,
       vestuario: true,
@@ -242,7 +242,7 @@ const details = [
     imagen4: "https://www.ellitoral.com/images/2024/01/03/QdXbUWd7m_1300x655__1.jpg",
     mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26278.12685750806!2d-58.416942433859774!3d-34.584790637453416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca99c609fc2f%3A0x392ca99351808a75!2sRecoleta%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1723146268638!5m2!1ses!2sar",
     servicios: {
-      horario: ["Lun. a Vier.", "10:00 a 00:00"],
+      horario: ["Lun, Mar, Mie, Jue, Vier", "10:00 a 00:00"],
       suelo: "Sinteitco Arena",
       estacionamiento: true,
       vestuario: true,
@@ -263,7 +263,7 @@ const details = [
     imagen4: "https://elnortecd.com.ar/wp-content/uploads/2024/01/Futbol-11-46.webp",
     mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26278.12685750806!2d-58.416942433859774!3d-34.584790637453416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca99c609fc2f%3A0x392ca99351808a75!2sRecoleta%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1723146268638!5m2!1ses!2sar",
     servicios: {
-      horario: ["Lun. a Vier.", "10:00 a 00:00"],
+      horario: ["Lun, Mar, Mie, Jue, Vier", "10:00 a 00:00"],
       suelo: "Cesped Sintetico",
       estacionamiento: true,
       vestuario: true,
@@ -284,7 +284,7 @@ const details = [
     imagen4: "https://clublanus.com/wp-content/uploads/2023/06/Tenis-Canchas.jpeg",
     mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26278.12685750806!2d-58.416942433859774!3d-34.584790637453416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca99c609fc2f%3A0x392ca99351808a75!2sRecoleta%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1723146268638!5m2!1ses!2sar",
     servicios: {
-      horario: ["Lun. a Vier.", "10:00 a 00:00"],
+      horario: ["Lun, Mar, Mie, Jue, Vier", "10:00 a 00:00"],
       suelo: "Polvo Ladrillo",
       estacionamiento: true,
       vestuario: true,
@@ -305,7 +305,7 @@ const details = [
     imagen4: "https://carasucias.com.ar/media/k2/items/cache/89be03aca8f1275a2e53b04561e41fc0_XL.jpg",
     mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26278.12685750806!2d-58.416942433859774!3d-34.584790637453416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca99c609fc2f%3A0x392ca99351808a75!2sRecoleta%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1723146268638!5m2!1ses!2sar",
       servicios: {
-      horario: ["Lun. a Vier.", "10:00 a 00:00"],
+      horario: ["Lun, Mar, Mie, Jue, Vier", "10:00 a 00:00"],
       suelo: "Sintetico Arena",
       estacionamiento: true,
       vestuario: true,
@@ -413,6 +413,8 @@ const localidades = [
   "Localidad"
 ]
 
+
+
 const usuarios = [
   {
     id: "1",
@@ -439,6 +441,19 @@ app.get('/fields', (req, res) => {
 app.get('/details', (req, res) => {
   res.json(details);
 });
+
+app.get('/details/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+  const detail = details.find(d => d.id === id);
+  if (detail) {
+    res.json(detail);
+  } else {
+    res.status(404).json({ message: 'Detail not found' });
+  }
+});
+
+
+
 app.get('/canchas', (req, res) => {
   res.json(canchas);
 });
