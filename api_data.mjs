@@ -453,6 +453,24 @@ app.get('/details/:id', (req, res) => {
 });
 
 
+app.get('/search', (req, res) => {
+  const localidad = req.query.localidad;
+
+  if (!localidad) {
+      return res.status(400).json({ error: 'La localidad es requerida' });
+  }
+
+  const filteredDetails = details.filter(detail => 
+    detail.localidad.toLowerCase().includes(localidad.toLowerCase())
+  );
+
+  if (filteredDetails.length === 0) {
+      return res.status(404).json({ message: 'No se encontraron detalles para la localidad especificada' });
+  }
+
+  res.json(filteredDetails);
+});
+
 
 app.get('/canchas', (req, res) => {
   res.json(canchas);
