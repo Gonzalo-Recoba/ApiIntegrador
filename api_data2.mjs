@@ -313,78 +313,56 @@ const localidades = [
   "Localidad"
 ]
 
-
 const reservas = [
-  // Cancha 1
-  { "id": 1, "date": "05/09/2024", "timeStart": "09:00", "timeEnd": "12:00", "userId": 1, "pitchId": 1, "fullPrice": 12000 },
-  { "id": 2, "date": "05/09/2024", "timeStart": "11:00", "timeEnd": "14:00", "userId": 2, "pitchId": 1, "fullPrice": 12000 },
-  { "id": 3, "date": "06/09/2024", "timeStart": "14:00", "timeEnd": "15:00", "userId": 3, "pitchId": 1, "fullPrice": 12000 },
-  { "id": 4, "date": "08/09/2024", "timeStart": "15:00", "timeEnd": "17:00", "userId": 4, "pitchId": 1, "fullPrice": 12000 },
-  { "id": 5, "date": "10/09/2024", "timeStart": "20:00", "timeEnd": "21:00", "userId": 5, "pitchId": 1, "fullPrice": 12000 },
-  
-  // Cancha 2
-  { "id": 6, "date": "05/09/2024", "timeStart": "20:00", "timeEnd": "23:00", "userId": 6, "pitchId": 2, "fullPrice": 11500 },
-  { "id": 7, "date": "05/09/2024", "timeStart": "11:00", "timeEnd": "12:00", "userId": 7, "pitchId": 2, "fullPrice": 11500 },
-  { "id": 8, "date": "06/09/2024", "timeStart": "11:00", "timeEnd": "14:00", "userId": 8, "pitchId": 2, "fullPrice": 11500 },
-  { "id": 9, "date": "08/09/2024", "timeStart": "15:00", "timeEnd": "16:00", "userId": 9, "pitchId": 2, "fullPrice": 11500 },
-  { "id": 10, "date": "10/09/2024", "timeStart": "21:00", "timeEnd": "22:00", "userId": 10, "pitchId": 2, "fullPrice": 11500 },
-  
-  // Cancha 3
-  { "id": 11, "date": "05/09/2024", "timeStart": "09:00", "timeEnd": "13:00", "userId": 11, "pitchId": 3, "fullPrice": 14000 },
-  { "id": 12, "date": "05/09/2024", "timeStart": "10:00", "timeEnd": "11:00", "userId": 12, "pitchId": 3, "fullPrice": 14000 },
-  { "id": 13, "date": "07/09/2024", "timeStart": "12:00", "timeEnd": "13:00", "userId": 13, "pitchId": 3, "fullPrice": 14000 },
-  { "id": 14, "date": "08/09/2024", "timeStart": "14:00", "timeEnd": "15:00", "userId": 14, "pitchId": 3, "fullPrice": 14000 },
-  { "id": 15, "date": "10/09/2024", "timeStart": "19:00", "timeEnd": "20:00", "userId": 15, "pitchId": 3, "fullPrice": 14000 },
-  
-  // Cancha 4
-  { "id": 16, "date": "05/09/2024", "timeStart": "09:00", "timeEnd": "10:00", "userId": 16, "pitchId": 4, "fullPrice": 12500 },
-  { "id": 17, "date": "05/09/2024", "timeStart": "12:00", "timeEnd": "13:00", "userId": 17, "pitchId": 4, "fullPrice": 12500 },
-  { "id": 18, "date": "07/09/2024", "timeStart": "14:00", "timeEnd": "15:00", "userId": 18, "pitchId": 4, "fullPrice": 12500 },
-  { "id": 19, "date": "08/09/2024", "timeStart": "16:00", "timeEnd": "18:00", "userId": 19, "pitchId": 4, "fullPrice": 12500 },
-  { "id": 20, "date": "10/09/2024", "timeStart": "20:00", "timeEnd": "21:00", "userId": 20, "pitchId": 4, "fullPrice": 12500 },
-  
-  // Cancha 5
-  { "id": 21, "date": "05/09/2024", "timeStart": "18:00", "timeEnd": "19:00", "userId": 21, "pitchId": 5, "fullPrice": 13000 },
-  { "id": 22, "date": "05/09/2024", "timeStart": "11:00", "timeEnd": "12:00", "userId": 22, "pitchId": 5, "fullPrice": 13000 },
-  { "id": 23, "date": "06/09/2024", "timeStart": "13:00", "timeEnd": "15:00", "userId": 23, "pitchId": 5, "fullPrice": 13000 },
-  { "id": 24, "date": "08/09/2024", "timeStart": "15:00", "timeEnd": "16:00", "userId": 24, "pitchId": 5, "fullPrice": 13000 },
-  { "id": 25, "date": "10/09/2024", "timeStart": "22:00", "timeEnd": "23:00", "userId": 25, "pitchId": 5, "fullPrice": 13000 },
-  
-  // Cancha 6
-  { "id": 26, "date": "05/09/2024", "timeStart": "18:00", "timeEnd": "19:00", "userId": 26, "pitchId": 6, "fullPrice": 14000 },
-  { "id": 27, "date": "06/09/2024", "timeStart": "11:00", "timeEnd": "13:00", "userId": 27, "pitchId": 6, "fullPrice": 14000 },
-  { "id": 28, "date": "07/09/2024", "timeStart": "14:00", "timeEnd": "15:00", "userId": 28, "pitchId": 6, "fullPrice": 14000 },
-  { "id": 29, "date": "09/09/2024", "timeStart": "17:00", "timeEnd": "18:00", "userId": 29, "pitchId": 6, "fullPrice": 14000 },
-  { "id": 30, "date": "10/09/2024", "timeStart": "21:00", "timeEnd": "22:00", "userId": 30, "pitchId": 6, "fullPrice": 14000 },
-  
-  // Cancha 7
-  { "id": 31, "date": "05/09/2024", "timeStart": "09:00", "timeEnd": "10:00", "userId": 31, "pitchId": 7, "fullPrice": 13000 },
-  { "id": 32, "date": "06/09/2024", "timeStart": "10:00", "timeEnd": "11:00", "userId": 32, "pitchId": 7, "fullPrice": 13000 },
-  { "id": 33, "date": "07/09/2024", "timeStart": "13:00", "timeEnd": "16:00", "userId": 33, "pitchId": 7, "fullPrice": 13000 },
-  { "id": 34, "date": "09/09/2024", "timeStart": "15:00", "timeEnd": "16:00", "userId": 34, "pitchId": 7, "fullPrice": 13000 },
-  { "id": 35, "date": "10/09/2024", "timeStart": "20:00", "timeEnd": "21:00", "userId": 35, "pitchId": 7, "fullPrice": 13000 },
-  
-  // Cancha 8
-  { "id": 36, "date": "05/09/2024", "timeStart": "12:00", "timeEnd": "13:00", "userId": 36, "pitchId": 8, "fullPrice": 12500 },
-  { "id": 37, "date": "06/09/2024", "timeStart": "11:00", "timeEnd": "12:00", "userId": 37, "pitchId": 8, "fullPrice": 12500 },
-  { "id": 38, "date": "07/09/2024", "timeStart": "14:00", "timeEnd": "15:00", "userId": 38, "pitchId": 8, "fullPrice": 12500 },
-  { "id": 39, "date": "09/09/2024", "timeStart": "16:00", "timeEnd": "18:00", "userId": 39, "pitchId": 8, "fullPrice": 12500 },
-  { "id": 40, "date": "10/09/2024", "timeStart": "22:00", "timeEnd": "23:00", "userId": 40, "pitchId": 8, "fullPrice": 12500 },
-  
-  // Cancha 9
-  { "id": 41, "date": "05/09/2024", "timeStart": "12:00", "timeEnd": "13:00", "userId": 41, "pitchId": 9, "fullPrice": 14000 },
-  { "id": 42, "date": "06/09/2024", "timeStart": "10:00", "timeEnd": "11:00", "userId": 42, "pitchId": 9, "fullPrice": 14000 },
-  { "id": 43, "date": "07/09/2024", "timeStart": "13:00", "timeEnd": "14:00", "userId": 43, "pitchId": 9, "fullPrice": 14000 },
-  { "id": 44, "date": "09/09/2024", "timeStart": "15:00", "timeEnd": "16:00", "userId": 44, "pitchId": 9, "fullPrice": 14000 },
-  { "id": 45, "date": "10/09/2024", "timeStart": "21:00", "timeEnd": "22:00", "userId": 45, "pitchId": 9, "fullPrice": 14000 },
-  
-  // Cancha 10
-  { "id": 46, "date": "05/09/2024", "timeStart": "12:00", "timeEnd": "13:00", "userId": 46, "pitchId": 10, "fullPrice": 12000 },
-  { "id": 47, "date": "06/09/2024", "timeStart": "11:00", "timeEnd": "12:00", "userId": 47, "pitchId": 10, "fullPrice": 12000 },
-  { "id": 48, "date": "07/09/2024", "timeStart": "13:00", "timeEnd": "14:00", "userId": 48, "pitchId": 10, "fullPrice": 12000 },
-  { "id": 49, "date": "09/09/2024", "timeStart": "15:00", "timeEnd": "16:00", "userId": 49, "pitchId": 10, "fullPrice": 12000 },
-  { "id": 50, "date": "10/09/2024", "timeStart": "20:00", "timeEnd": "21:00", "userId": 50, "pitchId": 10, "fullPrice": 12000 }
+  {
+    "id": 1,
+    "date" : "22/10/2024",
+    "timeStart" : "12:30",
+    "timeEnd": "13:30",
+    "userId" : 1,
+    "pitchId": 1,
+    "fullPrice" : 12000
+  },
+  {
+    "id": 2,
+    "date" : "23/10/2024",
+    "timeStart" : "10:00",
+    "timeEnd": "11:00",
+    "userId" : 2,
+    "pitchId": 5,
+    "fullPrice" : 13000
+  },
+  {
+    "id": 3,
+    "date" : "24/10/2024",
+    "timeStart" : "14:30",
+    "timeEnd": "15:30",
+    "userId" : 2,
+    "pitchId": 4,
+    "fullPrice" : 12500
+  },
+  {
+    "id": 4,
+    "date" : "25/10/2024",
+    "timeStart" : "09:00",
+    "timeEnd": "10:00",
+    "userId" : 2,
+    "pitchId": 2,
+    "fullPrice" : 11500
+  },
+  {
+    "id": 5,
+    "date" : "26/10/2024",
+    "timeStart" : "16:00",
+    "timeEnd": "17:00",
+    "userId" : 1,
+    "pitchId": 3,
+    "fullPrice" : 14000
+  }
 ];
+
+
+
 
 
 app.get('/details', (req, res) => {
@@ -429,13 +407,6 @@ app.get('/search', (req, res) => {
   }
 
   res.json(filteredDetails);
-});
-
-
-app.get('/filteredReservas/:id', (req, res) => {
-  const id = parseInt(req.params.id, 10); 
-  const filteredReservas = reservas.filter(reserva => reserva.pitchId === id);
-  res.json(filteredReservas);
 });
 
 
